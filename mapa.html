@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device.width, intial-scale=1.0"> <!--Hace la pagina adaptativa -->
+
+<title>Utrecht</title>
+<link rel="stylesheet" href="estilos.css">	
+<script src="phaser.js"></script> <!--Se llama la libreria de phaser -->
+<script src="map.js"></script> <!-- Se llama a la libreria del mapa -->
+</head>
+<body>
+
+  <a name="inicio"></a>
+  <div><h1><a href="index.html" target="_self">Utrecht Ciudad de Vida</a></h1></div>   
+  <nav class="menuNAV"><!--Se define la clase a utilizar .menuNAV para el menu  de navegacion que va a ser el mismo en todos los archivos html,y que usa una configuracion especial para el menu despegable -->
+  
+  	<ul>
+    	<li><a href="index.html" target="_self">   Introduccion   </a><!--Se pone un nuevo ul para poder determinar el menu despegable que es basicamente la creacion de un nuevo menu--> 
+        	<ul>
+            	<li><a href="historia.html" target="_self">   Historia   </a></li>
+            	<li><a href="ubicacion.html" target="_self">   Ubicacion   </a></li>
+                <li><a href="mapa.html" target="_self"> Mapa</a></li>
+            </ul>
+        </li>
+        <li><a href="poblacion.html" target="_self">   Poblacion   </a></li>
+        <li><a href="actividades.html" target="_self">   Actividades  </a></li>
+        
+        <li1><a href="info.html" target="_self">   Info   </a>
+            	<ul>
+                	<li1><a href="info.html#mapa">Mapa Sitio Web</a></li1>
+                    <li1><a href="info.html#bibliografia">Bibliografia</a></li1>
+                    <li1><a href="info.html#creditos">Creditos</a></li1>
+                </ul>
+            </li1>
+    </ul>
+  </nav>
+  <div class="box">
+  <h2> Mapa Interactivo del Centro de Utrecht </h2>
+  Podemos observar las 4 entradas originales de Utrecht y también 2 puntos representativos actualmente.
+  <br>
+  <div id = "mapa-phaser">
+  <br>
+  </div>
+  <h3>Observar con Mozilla Firefox </h3>
+  </div>
+</body>
+</html>

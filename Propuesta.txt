@@ -1,0 +1,1 @@
+Este ejercicio esta basado en Utrecht donde se intentara ver su historia y su actualidad, utilizando html en general y el mapa interactivo con phaser para hacer una vista 6 puntos principales del centro de utrecht
